@@ -78,7 +78,14 @@ const questions = {
       correcta: "Autism is just a way some brains work, and that's okay.",
       further: "Autistic people experience unique challenges, like everyone else does. Yet they also have strengths. There are things about autism that make life harder, but that does not mean that autism is terrible. A lot of the things that are hard for autistic people are not hard because of autism. They are hard because of other people. This doesn't make autism bad. It just means that other people are being unfair. We need to make the world a better place for autistic people.",
     },
-    total: 10,
+    10: {
+      thequestion:
+        "What does IDEA stand for?",
+      incorr: ["Ignorant Debilatating Educational Assistance", "Important Declaration Ending Ableism", "I did enable autistics!"],
+      correcta: "Individuals with Disabilities Education Act.",
+      further: "IDEA stands for the Individuals with Disabilities Education Act. It is a law that gives rights to students with disabilities so they can get services to help with learning in school.",
+    },
+    total: 11,
   },
   // Certain divs to show and hide
   resultDiv = document.getElementById("result"),
