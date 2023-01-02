@@ -85,7 +85,14 @@ const questions = {
       correcta: "Individuals with Disabilities Education Act.",
       further: "IDEA stands for the Individuals with Disabilities Education Act. It is a law that gives rights to students with disabilities so they can get services to help with learning in school.",
     },
-    total: 11,
+11: {
+      thequestion:
+        "What are autistics good at?",
+      incorr: ["All autistics are good at math, science, or programming.", "Most of the music you hear today are by autistics.", "A jack of all trades is not a good definition of an autistic person."],
+      correcta: "Some autistic people are better at certain things than other people, most of the time not.",
+      further: "Autistics are good at some things and bad at some things, but it is very rare for an autistic to be the best at something.",
+    },
+    total: 12,
   },
   // Certain divs to show and hide
   resultDiv = document.getElementById("result"),
