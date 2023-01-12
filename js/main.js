@@ -92,7 +92,14 @@ const questions = {
       correcta: "Some autistic people are better at certain things than other people, most of the time not.",
       further: "Autistics are good at some things and bad at some things, but it is very rare for an autistic to be the best at something.",
     },
-    total: 12,
+12: {
+      thequestion:
+        "Should autistics try to socialize in order to blend in as non-autistic?",
+      incorr: ["Yes. Learning about how to mask autism can be fun.", "Yes. You can find safety when a neurotypical is in charge of an autistic hang-out.", "No. Autistics enjoy their own company all the time."],
+      correcta: "Autistics shouldn’t have to act non-autistic to meet other autistic people.",
+      further: "Autistics need to be themselves. It is a big problem if the group is not a safe place to be autistic.",
+    },
+    total: 13,
   },
   // Certain divs to show and hide
   resultDiv = document.getElementById("result"),
