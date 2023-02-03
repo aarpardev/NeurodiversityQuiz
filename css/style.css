@@ -3,9 +3,32 @@
   background-color: #3b53a1;
 }
 
+body {
+  background-color: #3b53a1;
+}
+
+.thebox {
+  border-radius: 12px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 5px 5px 15px 5px #313131;
+  box-shadow: 5px 5px 15px 5px #313131;
+}
+
+#question {
+  background-color: #fff;
+}
+
+p#result {
+  background-color: #fff;
+}
+
+.results {
+  background-color: #fff;
+}
+
 .quiznotes {
   margin: 10px;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 #quiz {
@@ -14,7 +37,7 @@
 
 #finish {
   width: 90%;
-  background-color: #e5e5e5;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -39,82 +62,89 @@ h2 {
   font-size: 1.3em;
   line-height: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 h3 {
   font-size: 1.1em;
   line-height: 1.3em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 #result {
   font-size: 1.3em;
   line-height: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 #result-text {
   font-size: 1.3em;
   line-height: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .container {
   width: 90%;
   margin: 0 auto;
+  background-color: #3b53a1;
 }
 
 .testing-area {
   text-align: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 15px 5px #313131;
+  box-shadow: 5px 5px 15px 5px #313131;
   width: 90%;
   margin: 0 auto;
-  background-color: #e5e5e5;
+  margin-bottom: 10px;
+  background-color: #fff;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 500px) {
   .head {
 
     display: flex;
-    margin-top: -30px;
+    margin-top: 0px;
     justify-content: space-between;
     align-items: flex-start;
     background-color: #2d3748;
     padding: 15px;
     gap: 5px;
     color: #ffffff;
-
   }
 
-  .head > div {
+  .head>div {
     padding: 10px;
     background-color: #2d3748;
   }
 
   .head-text {
-    background-color: #e5e5e5;
+    background-color: #fff;
   }
 
   .theme-text {
     background-color: #2d3748;
+    line-height: 0.75em;
   }
 
   .gith {
     color: #ddd;
     text-decoration: none;
+    line-height: 0.75em;
+    margin-top: -10px;
   }
 
   .title {
-    margin-top: -10px;
+    margin-top: 0px;
   }
 
   #notes {
     text-align: center;
     width: 80%;
-    background-color: #e5e5e5;
+    background-color: #fff;
   }
 
   .container {
@@ -126,37 +156,37 @@ h3 {
     height: 100%;
     padding: 15px;
     gap: 5px;
-    width: 90%;
+    width: 100%;
+    background-color: #3b53a1;
 
   }
 
   .container>div {
-    background-color: #e5e5e5;
-    border: 3px solid #222;
-    border-radius: 5px;
     padding: 8px;
   }
 
   .results {
-    background-color: #e5e5e5;
-    margin:0 auto;
+    background-color: #fff;
+    margin: 0 auto;
   }
 
   .restext {
-    background-color: #e5e5e5;
+    background-color: #fff;
   }
 
   .choice {
     padding: 5px;
+    border-radius: 5px;
     margin: 5px;
     background-color: #0170b9;
     color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;
+    margin-bottom: 10px;
   }
 }
 
-@media screen and (max-width: 548px) {
+@media screen and (max-width: 498px) {
   .head {
 
     display: flex;
@@ -169,36 +199,37 @@ h3 {
     height: 100%;
     padding: 15px;
     gap: 5px;
-    margin: 0 auto;
+    margin: 0px auto;
     background-color: #2d3748;
-
   }
 
-  .head > div {
+  .head>div {
     padding: 10px;
-    margin: 0 auto;
+    margin: 0px auto;
     background-color: #2d3748;
   }
 
   .head-text {
-    background-color: #e5e5e5;
+    background-color: #fff;
   }
 
   .theme-text {
     background-color: #2d3748;
-    color:#e5e5e5;
+    color: #fff;
+    margin-top: -25px;
   }
 
   .gith {
     color: #ddd;
     text-decoration: none;
+
   }
 
   #notes {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background-color: #e5e5e5;
+    background-color: #fff;
   }
 
   .container {
@@ -214,23 +245,23 @@ h3 {
     padding: 15px;
     gap: 5px;
     margin: 0 auto;
+    width: 100%;
+    background-color: #3b53a1;
 
   }
 
   .container>div {
-    border: 3px solid #777;
-    border-radius: 5px;
     padding: 8px;
     width: 90%;
     margin: 0 auto;
   }
 
   .results {
-    background-color: #e5e5e5;
+    background-color: #fff;
   }
 
   .restext {
-    background-color: #e5e5e5;
+    background-color: #fff;
   }
 
   .choice {
